@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Find Your Tactical Shooter Playstyle</title>
+<meta name="description" content="ลากจุดบน 8 เส้นเพื่อดูว่าสไตล์การเล่นเกมยิงแนว Tactical Shooter ของคุณ (VALORANT, CS2) เอียงไปทางไหน">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600&family=Noto+Sans+Thai:wght@400;500&display=swap">
+<link rel="stylesheet" href="css/style.css">
+<script defer src="js/lines.js"></script>
+<script defer src="js/profile.js"></script>
+<script defer src="js/storage.js"></script>
+<script defer src="js/main.js"></script>
+</head>
+<body>
+<main>
+  <h1>Find Your Tactical Shooter Playstyle</h1>
+  <p class="lede">ลากจุดบนแต่ละเส้นเพื่อดูว่าสไตล์การเล่นของคุณเอียงไปทางไหน และเอียงมากแค่ไหน</p>
+
+  <div class="rows" id="rows"></div>
+
+  <section class="panel" aria-labelledby="ph">
+    <h2 id="ph">Your style profile</h2>
+    <div class="chips" id="chips"></div>
+    <p class="note" id="note"></p>
+    <label class="code-label" for="out">ค่าของคุณ คัดลอกไปเก็บไว้ หรือวางค่าที่คัดลอกมาเพื่อเลื่อนเส้นตาม</label>
+    <textarea id="out" spellcheck="false" placeholder="High sens 100% · Flick aim 100% · Aggressive play 80% · …"></textarea>
+    <div class="actions">
+      <button type="button" id="copy" class="main">Copy</button>
+      <button type="button" id="reset">Reset</button>
+    </div>
+    <p class="status" id="status" aria-live="polite"></p>
+  </section>
+</main>
+</body>
+</html>
