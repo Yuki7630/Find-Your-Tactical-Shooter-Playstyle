@@ -59,7 +59,7 @@ function renderProfile() {
   }));
   noteEl.textContent = leans.length === 0
     ? "ทุกเส้นอยู่ใกล้ตรงกลาง ลองลากจุดไปทางใดทางหนึ่ง"
-    : `แสดงเฉพาะเส้นที่เอียงเกิน ${LEAN_THRESHOLD}% อีก ${LINES.length - leans.length} เส้นค่อนข้างสมดุล`;
+    : `แสดงเฉพาะเส้นที่เอียงตั้งแต่ ${LEAN_THRESHOLD}% ขึ้นไป อีก ${LINES.length - leans.length} เส้นค่อนข้างสมดุล`;
 }
 
 // fromText = true while the person is typing in the text box, so we don't overwrite it.

@@ -17,13 +17,13 @@ For players of VALORANT, CS2 and other tactical shooters.
 | id | ซ้าย / Left | ขวา / Right |
 |---|---|---|
 | `sens` | **High sens**<br>เซนสูง | **Low sens**<br>เซนต่ำ |
-| `aimStyle` | **Controlled aim**<br>เล็งคุมจังหวะ | **Flick aim**<br>สะบัดไปหาเป้า |
+| `aimStyle` | **Flick aim**<br>สะบัดไปหาเป้า | **Controlled aim**<br>เล็งคุมจังหวะ |
 | `tempo` | **Aggressive play**<br>บุกเร็ว สร้างแรงกดดัน | **Passive play**<br>รอจังหวะ ให้ศัตรูพลาด |
-| `timing` | **Predictive**<br>ยิงจากภาพในหัว | **Reactive**<br>ยิงจากภาพตรงหน้า |
+| `timing` | **Reactive**<br>ยิงจากภาพตรงหน้า | **Predictive**<br>ยิงจากภาพในหัว |
 | `decision` | **Instinctive**<br>ตามสัญชาตญาณ | **Methodical**<br>รอบคอบ เน้นข้อมูล |
 | `risk` | **Gambler**<br>ใช้ความเสี่ยงสูง | **Disciplined**<br>เล่นตามวินัย ลดความเสี่ยง |
-| `aimControl` | **Calm aim**<br>วางเป้าแล้วรอยิง | **Adjust aim**<br>ขยับปรับแก้เป้า |
-| `form` | **Consistent**<br>สม่ำเสมอ | **Explosive**<br>ระเบิดฟอร์ม|
+| `aimControl` | **Adjust Aim**<br>ขยับปรับแก้เป้า | **Calm Aim**<br>วางเป้าแล้วรอยิง |
+| `form` | **Explosive**<br>ระเบิดฟอร์ม | **Consistent**<br>สม่ำเสมอ |
 
 ## วิธีใช้ / How to use
 
